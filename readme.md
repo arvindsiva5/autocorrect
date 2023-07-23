@@ -4,3 +4,10 @@ autoComplete(prompt) is a function that returns a string that represents the aut
 - If such a sentence exist, the completed sentence with the highest frequency in the Trie is returned
 - If there are multiple possible auto-complete sentences with the same highest frequency, then the lexicographically smaller string is returned
 - If such a sentence does not exist, None is returned
+
+Example:\
+sentences = ["abc", "abazacy", "dbcef", "xzz", "gdbc", "abazacy", "xyz", "abazacy", "dbcef", "xyz", "xxx", "xzz"]
+\# Creating a CatsTrie object
+trie = Trie(sentences)
+
+
