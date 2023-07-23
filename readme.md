@@ -33,7 +33,6 @@ dbcef
 prompt = "dbcefz"\
 \>>> mycattrie.autoComplete(prompt)\
 None
-10
 
 \# Example 1.5
 \# What if sentences doesn’t exist.
