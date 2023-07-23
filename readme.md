@@ -6,8 +6,8 @@ autoComplete(prompt) is a function that returns a string that represents the aut
 - If such a sentence does not exist, None is returned
 
 Example:\
-sentences = ["abc", "abazacy", "dbcef", "xzz", "gdbc", "abazacy", "xyz", "abazacy", "dbcef", "xyz", "xxx", "xzz"]
-\# Creating a CatsTrie object
+sentences = ["abc", "abazacy", "dbcef", "xzz", "gdbc", "abazacy", "xyz", "abazacy", "dbcef", "xyz", "xxx", "xzz"]\
+\# Creating a Trie object
 trie = Trie(sentences)
 
 
